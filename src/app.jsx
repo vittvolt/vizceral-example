@@ -16,12 +16,8 @@ function fontsActive () {
   );
 }
 
-// TODO:
-// Start the thread to retrieve latest info from db ?
-// const AsyncPolling = require('async-polling');
-// const util = require('util');
-
-// TODO: Add async-poll here ?
+// TODO: Add async-poll here ? -> X
+// FIXME: Sadly some packages (like socket) won't work on client side
 // AsyncPolling(function (end) {
 //   // Do whatever you want.
 //   util.log('well...well...well...');
